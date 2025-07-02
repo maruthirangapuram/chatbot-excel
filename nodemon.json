@@ -1,0 +1,19 @@
+{
+    "verbose" : true,
+    "ignore"    : ["*.test.js", ".git", "node_modules/**/node_modules", "sample_data","TestReports"],
+    "env"       : {
+        "DB_COMMONS_HOST"           : "localhost",
+        "DB_COMMONS_PORT"           : 5432,
+        "DB_COMMONS_NAME"           : "dlr_commons",
+        "DB_COMMONS_USER"           : "bradmin",
+        "DB_COMMONS_PASSWORD"       : "Welcome1",
+        "DB_EMS_HOST"               : "localhost",
+        "DB_EMS_PORT"               : 5432,
+        "DB_EMS_NAME"               : "ems_cmz",
+        "DB_EMS_USER"               : "bradmin",
+        "DB_EMS_PASSWORD"           : "Welcome1",
+        "REDIS_HOST"                : "edidvldlrd01.broadridge.net",
+        "REDIS_PORT"                : 6379
+    }
+    
+}

@@ -1,36 +1,26 @@
 {
-  "name": "excel-chatbot",
-  "private": true,
-  "version": "0.1.0",
-  "type": "module",
+  "name": "@broadridge/dlr-sig-engine",
+  "version": "3.0.0",
+  "description": "DLR Significant transaction processing engine",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "start-api": "python api/app.py"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.devops.broadridge.net:GTO-DLR/dlr-ng-3.0/engines/sig_engine.git"
+  },
+  "author": "DLR Engineering",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.7.1",
+    "nodemon": "^3.1.10",
+    "nyc": "^17.1.0"
   },
   "dependencies": {
-    "axios": "^1.6.2",
-    "lucide-react": "^0.344.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@eslint/js": "^8.56.0",
-    "@types/react": "^18.2.48",
-    "@types/react-dom": "^18.2.18",
-    "@vitejs/plugin-react": "^4.2.1",
-    "autoprefixer": "^10.4.18",
-    "eslint": "^8.56.0",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.5",
-    "globals": "^13.24.0",
-    "postcss": "^8.4.35",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5.3.3",
-    "@typescript-eslint/eslint-plugin": "^6.19.0",
-    "@typescript-eslint/parser": "^6.19.0",
-    "vite": "^5.0.12"
+    "@broadridge/dlr-postgres-client": "^1.5.1",
+    "@broadridge/logger": "^1.4.1",
+    "lodash": "^4.17.21"
   }
 }

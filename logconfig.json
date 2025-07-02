@@ -1,0 +1,6 @@
+{
+    "timestamp" : true,
+    "modules" : {
+        "Gateway.js"                 : "GATEWAY"
+    }
+}

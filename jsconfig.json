@@ -1,0 +1,13 @@
+{
+    "include": ["*.js", "src/**/*.js"],
+    "exclude": ["node_modules"],
+    "compilerOptions": {
+        "target": "ES5",
+        "moduleResolution": "node",
+        "module": "commonjs",
+        "checkJs": true,
+        "resolveJsonModule": true,
+        "noEmit": true,
+        "strict": true
+    }
+}
